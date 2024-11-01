@@ -3,12 +3,11 @@ import pandas as pd
 import os
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-import matplotlib.pyplot as plt
 
 
 
 try:
-    os.remove('what.csv')
+    os.remove('positions.csv')
 except Exception as e:
     print(e)
 
