@@ -44,7 +44,7 @@ for roundNumStartTick in range(len(roundStartTick)):
         currentTickPos = parser.parse_ticks(pos_wanted_props, ticks=[roundStartTick[roundNumStartTick]+openingPos])
         masterDF = pd.concat([masterDF, currentTickPos])
         
-masterDF.to_csv('what.csv')
+masterDF.to_csv('positions.csv')
 
 ct_color = '#68a3e5'
 terrorist_color = '#e6f13d'
